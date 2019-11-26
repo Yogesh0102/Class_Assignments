@@ -1,180 +1,191 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sports Complex</title>
-  <style>
-    * {
-  box-sizing: border-box;
-}
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-.row {margin: 0 -5px;}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+<title>Sports Complex</title>
+<style>
+  *
+  {
+      box-sizing: border-box;
   }
-}
-    body
+  .column 
+  {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .row 
+  {
+    margin: 0 -5px;
+  }
+  .row:after 
+  {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) 
+  {
+    .column 
     {
-      padding-left: 20px;
-        background-image: url("back.jpg");
-        background-size: 100%;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        color: white;
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
     }
-    .borders
-    {
-      border: inset;
-      background-color: #;
-      padding: 2px;
-    }
-    html 
-    {
-        scroll-behavior: smooth;
-    }
-    .container :hover img
-    {
-        position: relative;
-        text-align: center;
-        color: white;
-        opacity: 0.3;
-    }
-    .bckgrnd 
-    {
-      background-color: black;
-    }
-    .abc 
-    {
-      background-color: #0FACF5;
-      font-family: courier;
-    }
-    .heading
-    {
-      font-size: 25px;
-      text-decoration-style: wavy;
-      color: white;
-    }
-    .icon-bar 
-    {
-        background-color: black;
-        overflow: hidden;
-    }
-    .icon-bar a 
-    {
-        font-family: times;
-        float: right;
-        text-align: center;
-        padding: 14px 14px;
-        color: white;
-        font-size: 20px;
-        width: 10%;
-        text-decoration: none;
-        margin-top: 3px;
-    }
-    .icon-bar a:hover 
-    {
-        background-color: #3090C7;
-        color: white;
-    }
-    .xyz
-    {
-      margin: 5px;
-      width: 90px;
-    }
-    img 
-    {
-      vertical-align: middle;
-    }
-    .form 
-    {
-      background-color: darkgrey;
-      padding: 120px;
-      height: 550px;
-      width: 70%;
-      padding-top: 50px;
-      padding-right: 50px;
-      padding-left: 100px;
-      margin-left: 120px;
-    }
-    .bb, .tt, .bd, .pool{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #808080;
-}
-
-.bb, .tt, .bd, .pool:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-}
-.fb, .ct, .hy, .vb{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #808080;
-}
-
-.fb, .ct, .hy, .vb:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-input[type=text]
-    {
-      border-left: 0;
-      border-right: 0;
-      border-top: 0;
-      width: 400px;
-      height: 60px;
-      font-size: 20px;
-      font-family: Monherrat , sans-serif;
-      color: #000;
-      margin-top: 10px;
-      background-color: transparent;
-    }
-    input:focus
-    {
-      outline: none;
-      background-color: transparent;
-    }
-    input:hover
-    {
-      transition: 1s;
-      border-color: transparent;
-      }
-    button
-    {
-      width:150px;
-      height: 40px; 
-      background-color:transparent; 
-      color: #26C6DA; 
-      border-color: #26C6DA; 
-      font-size: 20px; 
-      font-family: monherrat, sans-serif; 
-      border-radius: 25px;
-    }
-    button:hover
-    {
-      color: #fff;
-      background-color: #26C6DA; 
-      transition: 1s;
-      border-color: transparent;
-      }
+  }
+  body
+  {
+    padding-left: 20px;
+    background-image: url("back.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family:Revalia;
+  }
+  .borders
+  {
+    border: inset;
+    background-color: #;
+    padding: 2px;
+  }
+  html 
+  {
+    scroll-behavior: smooth;
+  }
+  .container :hover img
+  {
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.3;
+  }
+  .bckgrnd 
+  {
+    background-color: black;
+  }
+  .abc 
+  {
+    background-color: #0FACF5;
+    font-family: courier;
+  }
+  .heading
+  {
+    font-size: 25px;
+    text-decoration-style: wavy;
+    color: white;
+  }
+  .icon-bar 
+  {
+    background-color: black;
+    overflow: hidden;
+  }
+  .icon-bar a 
+  {
+    font-family: times;
+    float: right;
+    text-align: center;
+    padding: 14px 14px;
+    color: white;
+    font-size: 20px;
+    width: 10%;
+    text-decoration: none;
+    margin-top: 3px;
+  }
+  .icon-bar a:hover 
+  {
+    background-color: #3090C7;
+    color: white;
+  }
+  .xyz
+  {
+    margin: 5px;
+    width: 90px;
+  }
+  img 
+  {
+    vertical-align: middle;
+  }
+  .form 
+  {
+    background-color: darkgrey;
+    padding: 120px;
+    height: 550px;
+    width: 70%;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 100px;
+    margin-left: 120px;
+  }
+  .bb, .tt, .bd, .pool
+  {
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #808080;
+  }
+  .bb, .tt, .bd, .pool:hover 
+  {
+    box-shadow: 10px 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container 
+  {
+    padding: 2px 16px;
+  }
+  .fb, .ct, .hy, .vb
+  {
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #808080;
+  }
+  .fb, .ct, .hy, .vb:hover 
+  {
+    box-shadow: 10px 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  input[type=text]
+  {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Monherrat , sans-serif;
+    color: #000;
+    margin-top: 10px;
+    background-color: transparent;
+  }
+  input:focus
+  {
+    outline: none;
+    background-color: transparent;
+  }
+  input:hover
+  {
+    transition: 1s;
+    border-color: transparent;
+  }
+  button
+  {
+    width:150px;
+    height: 40px; 
+    background-color:transparent; 
+    color: #26C6DA; 
+    border-color: #26C6DA; 
+    font-size: 20px; 
+    font-family: monherrat, sans-serif; 
+    border-radius: 25px;
+  }
+  button:hover
+  {
+    color: #fff;
+    background-color: #26C6DA; 
+    transition: 1s;
+    border-color: transparent;
+  }
   </style>
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </style>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</style>
 </head>
 <body>
   <div class="heading">
